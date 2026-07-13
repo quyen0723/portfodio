@@ -34,5 +34,9 @@
   "assets/golden-key.webp": {
     "width": 1120,
     "height": 700
+  },
+  "assets/hero-portrait.webp": {
+    "width": 1000,
+    "height": 1250
   }
 }

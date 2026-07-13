@@ -6,7 +6,7 @@ import { useLanguage } from '@/hooks/useLanguage'
 import { asset, assetSize } from '@/lib/asset'
 import styles from './Hero.module.css'
 
-const PORTRAIT = 'assets/run-finish.webp'
+const PORTRAIT = 'assets/hero-portrait.webp'
 
 export function Hero() {
   const { content } = useLanguage()
