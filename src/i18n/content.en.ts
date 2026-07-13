@@ -79,7 +79,7 @@ export const en: PortfolioContent = {
   lblMore: 'Selected engineering work',
   projects: [
     {
-      tag: 'Product · Team Coordination',
+      tag: 'Product · Team Leader',
       year: '2025 – 2026',
       name: 'LMS Product Development',
       sub: 'Deutschfuns · German-learning LMS',

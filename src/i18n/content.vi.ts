@@ -79,7 +79,7 @@ export const vi: PortfolioContent = {
   lblMore: 'Các công việc kỹ thuật khác',
   projects: [
     {
-      tag: 'Sản phẩm · Phối hợp đội nhóm',
+      tag: 'Sản phẩm · Team Leader',
       year: '2025 – 2026',
       name: 'Phát triển sản phẩm LMS',
       sub: 'Deutschfuns · LMS học tiếng Đức',
