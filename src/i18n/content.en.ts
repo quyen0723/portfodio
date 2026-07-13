@@ -204,7 +204,7 @@ export const en: PortfolioContent = {
       org: 'FSB · Fall 2025',
       title: 'Golden Key Student',
       why: 'Recognition for top academic standing in the M.Sc. program (class MSA33HCM).',
-      img: null,
+      img: 'assets/golden-key.webp',
     },
     {
       org: 'FPT University · Summer 2024',

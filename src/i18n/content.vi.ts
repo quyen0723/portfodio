@@ -204,7 +204,7 @@ export const vi: PortfolioContent = {
       org: 'FSB · Fall 2025',
       title: 'Golden Key Student',
       why: 'Ghi nhận thành tích học thuật xuất sắc trong chương trình Thạc sĩ (lớp MSA33HCM).',
-      img: null,
+      img: 'assets/golden-key.webp',
     },
     {
       org: 'ĐH FPT · Summer 2024',
