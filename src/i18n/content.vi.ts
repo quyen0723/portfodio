@@ -297,7 +297,7 @@ export const vi: PortfolioContent = {
   ctEyebrow: 'Liên hệ',
   ctTitle: 'Cùng tạo nên điều gì đó.',
   ctIntro:
-    'Sẵn sàng cho các cơ hội về kỹ thuật phần mềm, nghiên cứu và dẫn dắt kỹ thuật. Cách nhanh nhất để liên hệ là email.',
+    'Sẵn sàng cho các cơ hội về kỹ thuật phần mềm, nghiên cứu. Cách nhanh nhất để liên hệ là email.',
   socials: [
     { label: 'Email', handle: 'quyennnm.work@gmail.com', href: 'mailto:quyennnm.work@gmail.com' },
     { label: 'Điện thoại', handle: '0967 733 121', href: 'tel:0967733121' },

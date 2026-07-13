@@ -38,5 +38,9 @@
   "assets/hero-portrait.webp": {
     "width": 1000,
     "height": 1250
+  },
+  "assets/champion-team.webp": {
+    "width": 1400,
+    "height": 933
   }
 }

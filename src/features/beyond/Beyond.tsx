@@ -28,7 +28,7 @@ export function Beyond() {
             <img src={asset('assets/hovilo-team.webp')} alt="" loading="lazy" />
           </div>
           <div className={styles.cell}>
-            <img src={asset('assets/award-stage.webp')} alt="" loading="lazy" />
+            <img src={asset('assets/champion-team.webp')} alt="" loading="lazy" />
           </div>
         </div>
         <div className={styles.tall}>
