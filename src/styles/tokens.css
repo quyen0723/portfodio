@@ -1,0 +1,100 @@
+/*
+ * Design tokens — single source of truth for the whole system.
+ * Values extracted verbatim from the original design (Portfolio.dc.html).
+ * Nothing else in the codebase should hardcode a colour, radius, or shadow.
+ */
+:root {
+  /* ---- Surfaces & text ---- */
+  --color-bg: #fbfaf8;
+  --color-surface: #ffffff;
+  --color-surface-alt: #eef1f6; /* image placeholders */
+  --color-tint-warm: #f5f3ee; /* pill chips on light */
+
+  --color-ink: #161c27; /* strongest headings */
+  --color-ink-2: #1a2230;
+  --color-ink-3: #2a303b;
+  --color-body: #4a535f; /* default body text */
+  --color-body-2: #3e4753;
+  --color-muted: #5a626e;
+  --color-muted-2: #6b7280;
+  --color-faint: #9aa3af;
+  --color-faint-2: #8a929e;
+  --color-label: #b0aa9e; /* mono field labels */
+
+  /* ---- Borders ---- */
+  --color-border: #ece9e3;
+  --color-border-2: #e4e0d8;
+  --color-border-3: #ddd8cf;
+  --color-border-4: #dad5cc;
+  --color-border-soft: #f0ede7;
+  --color-border-input: #e7e3db;
+
+  /* ---- Dark sections ---- */
+  --color-dark: #161c27; /* research */
+  --color-darker: #12161f; /* contact */
+  --color-dark-panel: #1e2534;
+  --color-dark-text: #c7cdd8;
+  --color-dark-text-2: #9aa3b4;
+  --color-dark-text-3: #8a93a6;
+  --color-dark-text-4: #7e8798;
+  --color-dark-faint: #6e7788;
+  --color-dark-accent: #8fa3f5;
+  --color-dark-accent-2: #aebef9;
+  --color-on-dark: #eef1f6;
+
+  /* ---- Status ---- */
+  --color-online: #1dbf73;
+
+  /* ---- Accent (set per theme on the root wrapper) ---- */
+  --accent: #2b50e2;
+  --accent-tint: #eef1fd;
+  --accent-deep: #1b2e8c;
+
+  /* ---- Typography ---- */
+  --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', ui-monospace, monospace;
+
+  /* ---- Radii ---- */
+  --radius-pill: 999px;
+  --radius-xl: 24px;
+  --radius-lg: 22px;
+  --radius-md: 18px;
+  --radius-sm: 16px;
+  --radius-xs: 14px;
+  --radius-2xs: 8px;
+  --radius-chip: 7px;
+
+  /* ---- Shadows ---- */
+  --shadow-hero: 0 34px 70px -34px rgba(20, 25, 45, 0.4);
+  --shadow-float: 0 16px 36px -14px rgba(20, 25, 45, 0.28);
+  --shadow-card: 0 1px 2px rgba(20, 25, 35, 0.03);
+
+  /* ---- Layout ---- */
+  --container: 1180px;
+  --container-narrow: 960px;
+  --container-tight: 640px;
+  --gutter: clamp(18px, 5vw, 48px);
+  --section-y: clamp(80px, 11vw, 140px);
+  --nav-offset: 80px;
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Accent themes — applied via data-accent on the page wrapper. */
+[data-accent='royal-blue'] {
+  --accent: #2b50e2;
+  --accent-tint: #eef1fd;
+  --accent-deep: #1b2e8c;
+}
+[data-accent='ink-slate'] {
+  --accent: #3b4a63;
+  --accent-tint: #edf0f5;
+  --accent-deep: #232f44;
+}
+[data-accent='deep-emerald'] {
+  --accent: #0f7a5a;
+  --accent-tint: #e6f2ec;
+  --accent-deep: #0a5741;
+}

@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(36px, 6vw, 80px);
+  align-items: start;
+}
+.title {
+  margin-top: 22px;
+  line-height: 1.08;
+}
+.body p {
+  font-size: clamp(16px, 1.6vw, 19px);
+  line-height: 1.78;
+  color: var(--color-body-2);
+}
+.body p + p {
+  margin-top: 20px;
+}

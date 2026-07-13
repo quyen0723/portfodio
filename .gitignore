@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+.npm
+
+# build output
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# logs
+*.log
+npm-debug.log*
+
+# design working files (kept locally, not shipped)
+design/
+uploads/
+.thumbnail

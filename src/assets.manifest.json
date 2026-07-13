@@ -1,0 +1,34 @@
+{
+  "assets/award-stage.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "assets/hovilo-team.webp": {
+    "width": 1400,
+    "height": 931
+  },
+  "assets/ice-award.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "assets/ice-present.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "assets/mos-team.webp": {
+    "width": 1080,
+    "height": 486
+  },
+  "assets/run-finish.webp": {
+    "width": 933,
+    "height": 1400
+  },
+  "assets/run-road.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "assets/student-excellent.webp": {
+    "width": 1080,
+    "height": 720
+  }
+}

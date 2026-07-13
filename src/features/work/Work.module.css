@@ -1,0 +1,174 @@
+.header {
+  max-width: 60ch;
+  margin-bottom: clamp(40px, 6vw, 64px);
+}
+.title {
+  margin: 22px 0 18px;
+}
+.intro {
+  font-size: clamp(16px, 1.6vw, 19px);
+  line-height: 1.72;
+  color: var(--color-muted);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 3vw, 36px);
+}
+
+/* ---- Project card ---- */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: clamp(26px, 4vw, 52px);
+  box-shadow: var(--shadow-card);
+}
+.cardTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+.tag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.year {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--color-faint);
+}
+.name {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(26px, 3.4vw, 40px);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+  margin: 16px 0 4px;
+}
+.sub {
+  font-size: 14.5px;
+  color: var(--color-faint-2);
+  margin-bottom: 26px;
+}
+
+.pa {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: clamp(20px, 3vw, 40px);
+}
+.paText {
+  font-size: 16px;
+  line-height: 1.68;
+  color: var(--color-body-2);
+  margin-top: 10px;
+}
+
+.highlights {
+  margin-top: 28px;
+  padding-top: 26px;
+  border-top: 1px solid var(--color-border-soft);
+}
+.highlightsLabel {
+  margin-bottom: 14px;
+}
+.highlightList {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.highlightItem {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: var(--color-body-2);
+}
+.bullet {
+  flex: none;
+  margin-top: 9px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 26px;
+}
+.stackTag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-muted);
+  padding: 6px 12px;
+  border-radius: var(--radius-chip);
+  background: var(--accent-tint);
+}
+
+.impact {
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border-soft);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.impactLabel {
+  letter-spacing: 0.14em;
+}
+.impactValue {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-ink-2);
+}
+
+/* ---- More work ---- */
+.more {
+  margin-top: clamp(48px, 6vw, 72px);
+}
+.moreLabel {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  margin-bottom: 24px;
+}
+.moreGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(16px, 2vw, 24px);
+}
+.moreItem {
+  padding: 22px 0;
+  border-top: 1px solid var(--color-border);
+}
+.moreName {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  color: var(--color-ink-2);
+  margin-bottom: 7px;
+}
+.moreDesc {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--color-muted-2);
+}
+.moreLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 11px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--accent);
+}

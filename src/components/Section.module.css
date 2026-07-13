@@ -1,0 +1,21 @@
+.section {
+  scroll-margin-top: var(--nav-offset);
+  padding-block: var(--section-y);
+}
+.surface {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.dark {
+  background: var(--color-dark);
+  color: var(--color-dark-text);
+}
+.darker {
+  background: var(--color-darker);
+  color: var(--color-dark-text);
+}
+.gradient {
+  background: linear-gradient(180deg, var(--color-bg), var(--accent-tint));
+  border-bottom: 1px solid var(--color-border);
+}

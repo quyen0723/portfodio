@@ -1,0 +1,22 @@
+.heading {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.06;
+  color: var(--color-ink);
+}
+.sm {
+  font-size: clamp(28px, 4vw, 46px);
+  line-height: 1.08;
+}
+.md {
+  font-size: clamp(30px, 4.4vw, 52px);
+}
+.lg {
+  font-size: clamp(38px, 6.4vw, 80px);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+.dark {
+  color: #fff;
+}

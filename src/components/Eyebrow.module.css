@@ -1,0 +1,25 @@
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.center {
+  display: inline-flex;
+  justify-content: center;
+}
+.line {
+  width: 28px;
+  height: 1px;
+  background: var(--accent);
+  flex: none;
+}
+.label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.dark .label {
+  color: var(--color-dark-accent);
+}

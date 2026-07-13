@@ -1,0 +1,92 @@
+.header {
+  max-width: 64ch;
+  margin-bottom: clamp(40px, 6vw, 64px);
+}
+.title {
+  margin: 22px 0 18px;
+}
+.intro {
+  font-size: clamp(16px, 1.6vw, 19px);
+  line-height: 1.72;
+  color: var(--color-dark-text-2);
+}
+
+.figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-bottom: clamp(40px, 6vw, 60px);
+}
+.figure {
+  margin: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--color-dark-panel);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.figMedia {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+.figMedia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 50%;
+}
+.figCaption {
+  padding: 14px 18px;
+  font-size: 13px;
+  color: var(--color-dark-text-3);
+}
+
+.pubs {
+  display: flex;
+  flex-direction: column;
+}
+.pub {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+  padding: 28px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.11);
+}
+.pubMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.badge {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  padding: 5px 11px;
+  border-radius: 6px;
+  background: rgba(143, 163, 245, 0.16);
+  color: var(--color-dark-accent-2);
+}
+.venue {
+  font-size: 13.5px;
+  color: var(--color-dark-text-3);
+}
+.pubTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(19px, 2.3vw, 26px);
+  line-height: 1.28;
+  color: var(--color-on-dark);
+}
+.pubFoot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 13.5px;
+  color: var(--color-dark-text-4);
+}
+
+.orcid {
+  margin-top: 34px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--color-dark-faint);
+}
