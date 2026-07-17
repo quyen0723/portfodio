@@ -44,6 +44,36 @@
         ]
       }
     </script>
+
+    <!--
+      Privacy-first analytics (Umami) — cookieless, GDPR-friendly.
+      Nothing loads until BOTH constants below are filled with your own instance.
+      Setup: create a site on https://cloud.umami.is (free) or self-host Umami,
+      then paste the script URL + website id below.
+
+      Exclude your own machine: open the site once with ?owner=1
+      (re-enable with ?owner=0). The flag is stored per-browser in localStorage.
+    -->
+    <script>
+      (function () {
+        var params = new URLSearchParams(location.search)
+        if (params.get('owner') === '1') localStorage.setItem('umami.disabled', '1')
+        if (params.get('owner') === '0') localStorage.removeItem('umami.disabled')
+
+        // Umami Cloud — site "Quiniu1411" (quyen0723.github.io)
+        var UMAMI_SRC = 'https://cloud.umami.is/script.js'
+        var UMAMI_WEBSITE_ID = 'a00550bc-0684-4010-a81e-9fd64e607de5'
+
+        var ownerExcluded = localStorage.getItem('umami.disabled') === '1'
+        if (UMAMI_SRC && UMAMI_WEBSITE_ID && !ownerExcluded) {
+          var s = document.createElement('script')
+          s.defer = true
+          s.src = UMAMI_SRC
+          s.setAttribute('data-website-id', UMAMI_WEBSITE_ID)
+          document.head.appendChild(s)
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>
