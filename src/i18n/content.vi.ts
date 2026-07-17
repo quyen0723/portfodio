@@ -106,6 +106,8 @@ export const vi: PortfolioContent = {
         'Playwright',
       ],
       impact: 'Tính năng ra đều đặn · spec rõ ràng · quản lý task minh bạch',
+      link: 'http://lms.deutschfuns.com/',
+      linkLabel: 'Xem website',
     },
     {
       tag: 'Dự án cá nhân · Kiến trúc',
@@ -132,6 +134,8 @@ export const vi: PortfolioContent = {
         'Supabase',
       ],
       impact: 'Roadmap theo giai đoạn, có thể review',
+      link: 'https://wefocus.vercel.app/',
+      linkLabel: 'Xem live',
     },
   ],
   moreWork: [

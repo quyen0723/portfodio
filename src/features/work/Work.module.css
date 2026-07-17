@@ -53,10 +53,27 @@
   color: var(--color-ink);
   margin: 16px 0 4px;
 }
+.subRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-bottom: 26px;
+}
 .sub {
   font-size: 14.5px;
   color: var(--color-faint-2);
-  margin-bottom: 26px;
+}
+.projectLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.projectLink:hover {
+  color: var(--accent-deep);
 }
 
 .pa {

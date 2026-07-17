@@ -106,6 +106,8 @@ export const en: PortfolioContent = {
         'Playwright',
       ],
       impact: 'Steady feature delivery · clear specs & transparent task ownership',
+      link: 'http://lms.deutschfuns.com/',
+      linkLabel: 'Visit the LMS',
     },
     {
       tag: 'Personal Project · Architecture',
@@ -132,6 +134,8 @@ export const en: PortfolioContent = {
         'Supabase',
       ],
       impact: 'A staged, reviewable roadmap',
+      link: 'https://wefocus.vercel.app/',
+      linkLabel: 'View live',
     },
   ],
   moreWork: [

@@ -19,7 +19,19 @@ export function ProjectCard({ project, labels }: ProjectCardProps) {
       </div>
 
       <h3 className={styles.name}>{project.name}</h3>
-      <div className={styles.sub}>{project.sub}</div>
+      <div className={styles.subRow}>
+        <span className={styles.sub}>{project.sub}</span>
+        {project.link && (
+          <a
+            className={styles.projectLink}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {project.linkLabel} <span aria-hidden="true">↗</span>
+          </a>
+        )}
+      </div>
 
       <div className={styles.pa}>
         <div>

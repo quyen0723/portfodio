@@ -18,6 +18,9 @@ export interface Project {
   highlights: string[]
   stack: string[]
   impact: string
+  /** Optional live/site URL shown as a credibility link on the card. */
+  link?: string
+  linkLabel?: string
 }
 
 export interface MoreWorkItem {
