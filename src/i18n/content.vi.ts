@@ -201,10 +201,18 @@ export const vi: PortfolioContent = {
   awIntro: 'Một số thành tích trong quá trình học tập của mình.',
   awards: [
     {
+      org: 'FSB · Spring 2026',
+      title: 'Champion Award',
+      why: 'Danh hiệu học thuật cao nhất kỳ Spring 2026 trong chương trình Thạc sĩ (lớp MSA33HCM).',
+      img: 'assets/award-spring2026.webp',
+      poster: true,
+    },
+    {
       org: 'FSB · Fall 2025',
       title: 'Golden Key Student',
       why: 'Ghi nhận thành tích học thuật xuất sắc trong chương trình Thạc sĩ (lớp MSA33HCM).',
-      img: 'assets/golden-key.webp',
+      img: 'assets/award-fall2025.webp',
+      poster: true,
     },
     {
       org: 'ĐH FPT · Summer 2024',

@@ -41,6 +41,8 @@ export interface Award {
   why: string
   /** Optimized image path under /public, or null for text-only cards. */
   img: string | null
+  /** When true, show the full image at its natural aspect (no 16:10 crop). */
+  poster?: boolean
 }
 
 export interface SkillGroup {

@@ -26,7 +26,11 @@ export function Awards() {
             <Reveal key={award.title} className={styles.cardWrap}>
               <article className={styles.card}>
                 {award.img && (
-                  <div className={styles.media}>
+                  <div
+                    className={[styles.media, award.poster && styles.poster]
+                      .filter(Boolean)
+                      .join(' ')}
+                  >
                     <img
                       src={asset(award.img)}
                       alt={award.title}

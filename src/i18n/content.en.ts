@@ -201,10 +201,18 @@ export const en: PortfolioContent = {
   awIntro: 'A few achievements from my time as a student.',
   awards: [
     {
+      org: 'FSB · Spring 2026',
+      title: 'Champion Award',
+      why: 'Top academic honour for the Spring 2026 semester in the M.Sc. program (class MSA33HCM).',
+      img: 'assets/award-spring2026.webp',
+      poster: true,
+    },
+    {
       org: 'FSB · Fall 2025',
       title: 'Golden Key Student',
       why: 'Recognition for top academic standing in the M.Sc. program (class MSA33HCM).',
-      img: 'assets/golden-key.webp',
+      img: 'assets/award-fall2025.webp',
+      poster: true,
     },
     {
       org: 'FPT University · Summer 2024',

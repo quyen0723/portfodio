@@ -31,10 +31,6 @@
     "width": 1080,
     "height": 720
   },
-  "assets/golden-key.webp": {
-    "width": 1120,
-    "height": 700
-  },
   "assets/hero-portrait.webp": {
     "width": 1000,
     "height": 1250
@@ -42,5 +38,13 @@
   "assets/champion-team.webp": {
     "width": 1400,
     "height": 933
+  },
+  "assets/award-spring2026.webp": {
+    "width": 1000,
+    "height": 1154
+  },
+  "assets/award-fall2025.webp": {
+    "width": 1000,
+    "height": 1231
   }
 }

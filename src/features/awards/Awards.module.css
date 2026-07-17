@@ -38,6 +38,15 @@
   height: 100%;
   object-fit: cover;
 }
+
+/* Poster cards: show the full graphic at its natural aspect (no crop). */
+.poster {
+  aspect-ratio: auto;
+}
+.poster img {
+  height: auto;
+  object-fit: fill;
+}
 .body {
   padding: clamp(20px, 2.6vw, 28px);
   display: flex;
