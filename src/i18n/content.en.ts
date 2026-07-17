@@ -224,7 +224,7 @@ export const en: PortfolioContent = {
       org: 'Viettel 2022 · Mekong Delta',
       title: 'MOS World Championship',
       why: 'Regional champion of the Microsoft Office Specialist World Championship — precision under pressure.',
-      img: 'assets/mos-team.webp',
+      img: 'assets/mos-ceremony.webp',
     },
   ],
   awFootnote: '',

@@ -224,7 +224,7 @@ export const vi: PortfolioContent = {
       org: 'Viettel 2022 · ĐBSCL',
       title: 'Vô địch Tin học VP Thế giới',
       why: 'Vô địch khu vực cuộc thi MOS World Championship — độ chính xác dưới áp lực.',
-      img: 'assets/mos-team.webp',
+      img: 'assets/mos-ceremony.webp',
     },
   ],
   awFootnote: '',

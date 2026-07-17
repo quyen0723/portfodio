@@ -15,10 +15,6 @@
     "width": 1400,
     "height": 933
   },
-  "assets/mos-team.webp": {
-    "width": 1080,
-    "height": 486
-  },
   "assets/run-finish.webp": {
     "width": 933,
     "height": 1400
@@ -46,5 +42,9 @@
   "assets/award-fall2025.webp": {
     "width": 1000,
     "height": 1231
+  },
+  "assets/mos-ceremony.webp": {
+    "width": 1400,
+    "height": 933
   }
 }
