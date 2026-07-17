@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react'
 import { Section } from '@/components/Section'
 import { Reveal } from '@/components/Reveal'
 import { Eyebrow } from '@/components/Eyebrow'
@@ -30,6 +31,11 @@ export function Awards() {
                     className={[styles.media, award.poster && styles.poster]
                       .filter(Boolean)
                       .join(' ')}
+                    style={
+                      award.poster
+                        ? ({ '--poster-bg': `url(${asset(award.img)})` } as CSSProperties)
+                        : undefined
+                    }
                   >
                     <img
                       src={asset(award.img)}

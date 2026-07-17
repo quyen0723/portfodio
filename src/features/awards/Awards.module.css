@@ -13,8 +13,18 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(18px, 2.4vw, 28px);
+}
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 .cardWrap {
   display: flex;
@@ -27,6 +37,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  /* Stretch every card to the tallest in its row for a tidy grid. */
+  height: 100%;
 }
 .media {
   aspect-ratio: 16 / 10;
@@ -39,13 +51,29 @@
   object-fit: cover;
 }
 
-/* Poster cards: show the full graphic at its natural aspect (no crop). */
+/* Poster cards: uniform 4:5 frame, full graphic shown (contain, no crop),
+   with a blurred copy of the same image filling the letterbox for a clean,
+   equal-height row. */
 .poster {
-  aspect-ratio: auto;
+  aspect-ratio: 4 / 5;
+  position: relative;
+  background: var(--color-dark);
+}
+.poster::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--poster-bg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(22px) brightness(0.55);
+  transform: scale(1.15);
 }
 .poster img {
-  height: auto;
-  object-fit: fill;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  object-fit: contain;
 }
 .body {
   padding: clamp(20px, 2.6vw, 28px);
