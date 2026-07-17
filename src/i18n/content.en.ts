@@ -221,6 +221,13 @@ export const en: PortfolioContent = {
       img: 'assets/student-excellent.webp',
     },
     {
+      org: 'FPT Edu · 2024',
+      title: 'Featured on FPT Edu',
+      why: 'Our SEP490 capstone — E-School digitisation, the Online Register Notebook (ORB) — featured in FPT Education news.',
+      img: 'assets/orb-fpt-news.webp',
+      poster: true,
+    },
+    {
       org: 'Viettel 2022 · Mekong Delta',
       title: 'MOS World Championship',
       why: 'Regional champion of the Microsoft Office Specialist World Championship — precision under pressure.',

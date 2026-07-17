@@ -221,6 +221,13 @@ export const vi: PortfolioContent = {
       img: 'assets/student-excellent.webp',
     },
     {
+      org: 'FPT Edu · 2024',
+      title: 'Đồ án lên báo FPT Edu',
+      why: 'Đồ án capstone SEP490 — Hệ thống số hoá E-School, Sổ Đầu Bài Điện Tử (ORB) — được đưa tin trên báo FPT Education.',
+      img: 'assets/orb-fpt-news.webp',
+      poster: true,
+    },
+    {
       org: 'Viettel 2022 · ĐBSCL',
       title: 'Vô địch Tin học VP Thế giới',
       why: 'Vô địch khu vực cuộc thi MOS World Championship — độ chính xác dưới áp lực.',
