@@ -228,6 +228,12 @@ export const en: PortfolioContent = {
       poster: true,
     },
     {
+      org: 'Viettel 2023',
+      title: 'MOS 2023 · School Representative',
+      why: 'Selected to represent FPT University at the MOS World Championship (Viettel 2023).',
+      img: 'assets/mos-2023-rep.webp',
+    },
+    {
       org: 'Viettel 2022 · Mekong Delta',
       title: 'MOS World Championship',
       why: 'Regional champion of the Microsoft Office Specialist World Championship — precision under pressure.',

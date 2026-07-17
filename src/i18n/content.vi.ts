@@ -228,6 +228,12 @@ export const vi: PortfolioContent = {
       poster: true,
     },
     {
+      org: 'Viettel 2023',
+      title: 'Đại diện trường thi MOS 2023',
+      why: 'Đại diện trường ĐH FPT tham dự cuộc thi Vô địch Tin học Văn phòng Thế giới (Viettel 2023).',
+      img: 'assets/mos-2023-rep.webp',
+    },
+    {
       org: 'Viettel 2022 · ĐBSCL',
       title: 'Vô địch Tin học VP Thế giới',
       why: 'Vô địch khu vực cuộc thi MOS World Championship — độ chính xác dưới áp lực.',
